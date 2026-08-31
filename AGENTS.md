@@ -29,6 +29,19 @@ git add docs && git commit -m "chore: update docs submodule ref"
 - shadcn/ui + Tailwind · TanStack Query · `@xyflow/react` / Recharts по мере экранов
 - Surfaces: `public` · `cabinet` · `shop` · `admin` (`src/app/(…)`)
 
+## UI foundation (locked)
+
+One system: **shadcn/ui** (`base-nova`) + Tailwind v4. Tokens in `src/app/globals.css`.
+Do not add a second UI kit (Fluent / Carbon / Material / Radix Themes / MUI).
+
+- Type: IBM Plex Sans + IBM Plex Mono via `next/font` (Cyrillic; Geist has no Cyrillic)
+- Accent: teal `oklch(… 175)` — not gold, not purple
+- Radius: `0.625rem` everywhere
+- Icons: `lucide-react` (already in repo — do not mix families)
+- Taste dials: product surfaces `4 / 2 / 7`, public `5 / 3 / 3`
+- Skill: `.cursor/skills/design-taste-frontend` (Leonxlnx/taste-skill v2)
+- Do not add Motion / Zustand / `@xyflow/react` / Recharts until those screens exist
+
 ## Agent skills
 
 ### Issue tracker
