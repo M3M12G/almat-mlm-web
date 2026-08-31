@@ -1,7 +1,8 @@
-# Almat MLM Web — Agent Instructions
+# mlm-web — Agent Instructions
 
-Frontend workspace: **Next.js App Router** + TypeScript strict + shadcn/ui +
-TanStack Query.
+Frontend application **mlm-web** (Next.js App Router + TypeScript strict + shadcn/ui +
+TanStack Query).  
+Repo / local folder: `almat-mlm-web` (имя репозитория не меняется).
 
 **Canonical docs:** git submodule at `docs/` → repo `almat-mlm-docs`  
 - Tech spec §4: `docs/TECH_SPEC.md`  
