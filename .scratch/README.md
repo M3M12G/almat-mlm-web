@@ -9,3 +9,14 @@ One feature per folder: `.scratch/<feature-slug>/spec.md`.
 ```
 
 See `docs/agents/issue-tracker.md`.
+
+## Features (pilot handoff)
+
+| Folder | Status | Notes |
+|---|---|---|
+| [public-auth](public-auth/spec.md) | ready | login / register against `/auth/*` |
+| [cabinet](cabinet/spec.md) | ready | `/me` shell; tree after network API |
+| [shop](shop/spec.md) | partial | catalog ready; checkout = money review |
+| [admin](admin/spec.md) | ready | users + withdrawals queue |
+
+Status on issue files: `ready` \| `blocked` \| `claimed` \| `resolved`.
